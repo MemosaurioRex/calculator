@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}.main-container{
+    margin: 0;
+    margin-top: 3rem;
+}.body-calc{
+    background-color: aqua;
+    margin-left: 20%;
+    margin-right: 20%;
+}.title{
+    margin: 0;
+    text-align: center;
+}button{
+    margin: 0;
+    width: 5rem;
+    height: 5rem;
+}
