@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js"></script>
+</head>
+<body class="fondo">
+    <div class="main">
+        <form name="form">
+            <input class="textview" name="textview">
+        </form>
+        
+        <table>
+            <tr>
+                <td><input class="button" type="button" value="C" onclick="borrartodo()"></td>
+                <td><input class="button" type="button" value="<" onclick="borraruno()"></td>
+                <td><input class="button" type="button" value="*" onclick="insert('*')"></td>
+                <td><input class="button" type="button" value="/" onclick="insert('/')"></td>
+            </tr>
+
+            <tr>
+                <td><input class="button" type="button" value="9" onclick="insert(9)"></td>
+                <td><input class="button" type="button" value="8" onclick="insert(8)"></td>
+                <td><input class="button" type="button" value="7" onclick="insert(7)"></td>
+                <td><input class="button" type="button" value="-" onclick="insert('-')"></td>
+            </tr>
+
+            <tr>
+                <td><input class="button" type="button" value="6" onclick="insert(6)"></td>
+                <td><input class="button" type="button" value="5" onclick="insert(5)"></td>
+                <td><input class="button" type="button" value="4" onclick="insert(4)"></td>
+                <td><input class="button" type="button" value="+" onclick="insert('+')"></td>
+            </tr>
+
+            <tr>
+                <td><input class="button" type="button" value="3" onclick="insert(3)"></td>
+                <td><input class="button" type="button" value="2" onclick="insert(2)"></td>
+                <td><input class="button" type="button" value="1" onclick="insert(1)"></td>
+                <td rowspan="5"><input class="button" type="button" style="height: 109px;" value="=" onclick="esigual()"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"><input class="button" type="button" style="width: 109px" value="0" onclick="insert(0)"></td>
+                <td><input class="button" type="button" value="." onclick="insert('.')"></td>
+                
+                
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

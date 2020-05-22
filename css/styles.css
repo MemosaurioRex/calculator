@@ -1,17 +1,32 @@
-body{
+*{
     margin: 0;
-}.main-container{
-    margin: 0;
-    margin-top: 3rem;
-}.body-calc{
-    background-color: aqua;
-    margin-left: 20%;
-    margin-right: 20%;
-}.title{
-    margin: 0;
-    text-align: center;
-}button{
-    margin: 0;
-    width: 5rem;
-    height: 5rem;
+    padding: 0;
+}.button{
+    height: 51px;
+    font-size: 30px;
+    width: 51px; 
+    margin: 3px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    border: solid 1px;
+    transition: all 50ms;
+}.textview{
+    width: 220px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    background: transparent;
+    border: solid 1px;
+}.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background:transparent;
+}.fondo{
+    padding: 1%;
+    background: linear-gradient(to right, red, orange);
+}.button:hover{
+    transform: translateY(-2px);
 }
